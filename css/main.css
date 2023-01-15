@@ -12,4 +12,23 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 2rem 5rem;
+}
+nav .nav-logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgb(35, 33, 39);
+}
+nav .navLinksBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

@@ -23,6 +23,9 @@ body{
 img{
   width: 100%;
 }
+section{
+  width: 100%;
+}
 header{
   margin-bottom: 5rem;
 }
@@ -89,6 +92,7 @@ nav{
 #hero-section{
   width: 100%;
   position: relative;
+  margin-bottom: 6rem;
   & .hero-section-container{
     margin: 0 auto;
     width: 85%;
@@ -121,5 +125,22 @@ nav{
     position: absolute;
     width: 45%;
     right: 0;
+  }
+}
+// 
+// 
+// INPUT LINK SECTION
+// 
+// 
+.input-link-container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  background: linear-gradient(rgba($dark-violet, .7), rgba($dark-violet, .7)), url(images/bg-shorten-desktop.svg);
+  & .input-link-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
   }
 }

@@ -27,10 +27,12 @@ header{
   margin-bottom: 5rem;
 }
 nav{
+  margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 2.5rem;
-  padding: 2rem 10rem;
+  padding: 3rem 0;
+  width: 85%;
 // 
   & .navLinksBtns{
   display: flex;
@@ -89,14 +91,14 @@ nav{
   position: relative;
   & .hero-section-container{
     margin: 0 auto;
-    width: 95%;
+    width: 85%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
     gap: 8rem;
     & .hero-section-h3{
-      font-size: 6rem;
+      font-size: 5rem;
       font-weight: 800;
       margin-bottom: .8rem;
     }

@@ -15,20 +15,92 @@ body {
   font-size: 1.4rem;
 }
 
+img {
+  width: 100%;
+}
+
+header {
+  margin-bottom: 2.8rem;
+}
+
 nav {
   display: flex;
   align-items: center;
   gap: 2.5rem;
-  padding: 2rem 5rem;
-}
-nav .nav-logo {
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: rgb(35, 33, 39);
+  padding: 2rem 10rem;
 }
 nav .navLinksBtns {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+nav .navLinksBtns .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.8rem;
+}
+nav .navLinksBtns .nav-links .nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(158, 154, 167);
+  transition: all 0.5s ease-in-out;
+}
+nav .navLinksBtns .nav-links .nav-link:hover, nav .navLinksBtns .nav-links .nav-link:active {
+  color: rgb(35, 33, 39);
+}
+nav .navLinksBtns .nav-btns {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+nav .navLinksBtns .nav-btns .nav-grey-btn {
+  color: rgb(158, 154, 167);
+  text-decoration: none;
+  font-weight: 600;
+}
+nav .navLinksBtns .nav-btns .nav-green-btn {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(42, 207, 207);
+  padding: 0.8rem 1rem;
+  border-radius: 8rem;
+  transition: all 0.5s ease-in-out;
+}
+nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .nav-green-btn:active {
+  background: rgba(42, 207, 207, 0.7);
+}
+
+#hero-section {
+  width: 100%;
+  position: relative;
+}
+#hero-section .hero-section-container {
+  margin: 0 auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 8rem;
+}
+#hero-section .hero-section-container .hero-section-h3 {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+#hero-section .hero-section-container .hero-section-p-one {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(158, 154, 167);
+  margin-bottom: 0.8rem;
+}
+#hero-section .hero-section-container .hero-section-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(42, 207, 207);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 1.2rem;
 }/*# sourceMappingURL=main.css.map */

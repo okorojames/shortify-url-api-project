@@ -20,20 +20,99 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
 }
+img{
+  width: 100%;
+}
+header{
+  margin-bottom: 2.8rem;
+}
 nav{
   display: flex;
   align-items: center;
   gap: 2.5rem;
-  padding: 2rem 5rem;
-  & .nav-logo{
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: $very-dark-violet;
-}
+  padding: 2rem 10rem;
+// 
   & .navLinksBtns{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  // 
+  // 
+  & .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+    & .nav-link{
+      text-decoration: none;
+      font-weight: 600;
+      color: $greyish-violet;
+      transition: all .5s ease-in-out;
+    }
+    & .nav-link:hover, & .nav-link:active{
+      color: $very-dark-violet;
+    }
+  }
+  // 
+  // 
+  .nav-btns{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    & .nav-grey-btn{
+      color: $greyish-violet;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    & .nav-green-btn{
+      text-decoration: none;
+      color: #fff;
+      background: $cyan;
+      padding: .8rem 1rem;
+      border-radius: 8rem;
+      transition: all .5s ease-in-out;
+    }
+    & .nav-green-btn:hover, & .nav-green-btn:active{
+      background: rgba($cyan, .7);
+    }
+  }
 }
+}
+// 
+// 
+// HERO SECTION
+// 
+// 
+#hero-section{
+  width: 100%;
+  position: relative;
+  & .hero-section-container{
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 8rem;
+    & .hero-section-h3{
+      font-size: 6rem;
+      font-weight: 800;
+      margin-bottom: .8rem;
+    }
+    & .hero-section-p-one{
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: $greyish-violet;
+      margin-bottom: .8rem;
+    }
+    & .hero-section-btn{
+      display: inline-block;
+      text-decoration: none;
+      background: $cyan;
+      color: #fff;
+      padding: .8rem 1.2rem;
+      border-radius: 1.2rem;
+    }
+  }
 }

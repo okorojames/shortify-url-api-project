@@ -20,7 +20,7 @@ img {
 }
 
 header {
-  margin-bottom: 2.8rem;
+  margin-bottom: 5rem;
 }
 
 nav {
@@ -94,7 +94,7 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   font-size: 1.8rem;
   font-weight: 500;
   color: rgb(158, 154, 167);
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 #hero-section .hero-section-container .hero-section-btn {
   display: inline-block;
@@ -103,4 +103,9 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   color: #fff;
   padding: 0.8rem 1.2rem;
   border-radius: 1.2rem;
+}
+#hero-section .hero-section-second-col {
+  position: absolute;
+  width: 45%;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */

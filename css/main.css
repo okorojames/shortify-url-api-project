@@ -13,6 +13,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
+  margin-bottom: 80px;
 }
 
 img {
@@ -81,7 +82,7 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 #hero-section {
   width: 100%;
   position: relative;
-  margin-bottom: 6rem;
+  margin-bottom: 15rem;
 }
 #hero-section .hero-section-container {
   margin: 0 auto;
@@ -115,17 +116,63 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   position: absolute;
   width: 45%;
   right: 0;
+  animation: heroSecondColDance 8s infinite alternate-reverse ease-in-out;
 }
 
+@-webkit-keyframes heroSecondColDance {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(18px);
+  }
+}
+
+@keyframes heroSecondColDance {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(18px);
+  }
+}
 .input-link-container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
-  background: linear-gradient(rgba(59, 48, 84, 0.7), rgba(59, 48, 84, 0.7)), url(images/bg-shorten-desktop.svg);
+  background: linear-gradient(rgba(59, 48, 84, 0.95), rgba(59, 48, 84, 0.95)), url(/images/bg-shorten-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  padding: 8rem 0;
 }
 .input-link-container .input-link-form {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3rem;
+}
+.input-link-container .input-link-form .input-link-input {
+  width: 60%;
+  padding: 1.3rem 1rem 1.3rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+}
+.input-link-container .input-link-form .input-link-btn {
+  padding: 1.3rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  background: rgb(42, 207, 207);
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.6s ease-in-out;
+}
+.input-link-container .input-link-form .input-link-btn:hover, .input-link-container .input-link-form .input-link-btn:active {
+  background: rgba(42, 207, 207, 0.7);
 }/*# sourceMappingURL=main.css.map */

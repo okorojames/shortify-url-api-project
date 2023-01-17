@@ -264,14 +264,15 @@ nav{
   // 
   // 
   & .advance-stats-second-content{
+    position: relative;
     margin-top: 15rem;
     display: flex;
-    gap: 8rem;
+    gap: 4rem;
     justify-content: center;
     align-items: center;
   }
   & .card{
-    width: 35rem;
+    width: 34rem;
     background: #fff;
     padding: 5rem 3rem;
     border-radius: .8rem;
@@ -297,5 +298,18 @@ nav{
       font-weight: 600;
       opacity: .58;
     }
+  }
+  .card-back-line{
+    height: 12px;
+    width: 650px;
+    background: $cyan;
+    position: absolute;
+    z-index: -1;
+  }
+  .card--two{
+    margin-top: 5rem;
+  }
+  .card--three{
+    margin-top: 12rem;
   }
 }

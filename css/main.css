@@ -255,14 +255,15 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   font-size: 1.6rem;
 }
 #advance-stats-section .advance-stats-second-content {
+  position: relative;
   margin-top: 15rem;
   display: flex;
-  gap: 8rem;
+  gap: 4rem;
   justify-content: center;
   align-items: center;
 }
 #advance-stats-section .card {
-  width: 35rem;
+  width: 34rem;
   background: #fff;
   padding: 5rem 3rem;
   border-radius: 0.8rem;
@@ -288,4 +289,17 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 #advance-stats-section .card-context .card-p-one {
   font-weight: 600;
   opacity: 0.58;
+}
+#advance-stats-section .card-back-line {
+  height: 12px;
+  width: 650px;
+  background: rgb(42, 207, 207);
+  position: absolute;
+  z-index: -1;
+}
+#advance-stats-section .card--two {
+  margin-top: 5rem;
+}
+#advance-stats-section .card--three {
+  margin-top: 12rem;
 }/*# sourceMappingURL=main.css.map */

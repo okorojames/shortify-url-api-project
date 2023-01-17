@@ -231,4 +231,26 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 }
 .linksGenerated .linkGenerated .shortLink .copy-btn:hover, .linksGenerated .linkGenerated .shortLink .copy-btn:active {
   background: rgba(42, 207, 207, 0.7);
+}
+
+#advance-stats-section {
+  margin-bottom: 6rem;
+}
+#advance-stats-section .advance-stats-container {
+  width: 85%;
+  margin: 0 auto;
+}
+#advance-stats-section .advance-stats-container .advance-stats-first-content {
+  text-align: center;
+}
+#advance-stats-section .advance-stats-container .advance-stats-first-content .advance-stats-h3 {
+  color: rgb(35, 33, 39);
+  font-weight: 800;
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+#advance-stats-section .advance-stats-container .advance-stats-first-content .advance-stats-p-one {
+  opacity: 0.6;
+  font-weight: 600;
+  font-size: 1.6rem;
 }/*# sourceMappingURL=main.css.map */

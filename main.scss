@@ -238,3 +238,27 @@ nav{
     }
   }
 }
+// 
+// ADVANCE STATS SECTION
+// 
+#advance-stats-section{
+  margin-bottom: 6rem;
+  & .advance-stats-container{
+    width: 85%;
+    margin: 0 auto;
+    & .advance-stats-first-content{
+      text-align: center;
+      & .advance-stats-h3{
+        color: $very-dark-violet;
+        font-weight: 800;
+        font-size: 3.2rem;
+        margin-bottom: 1rem;
+      }
+      & .advance-stats-p-one{
+        opacity: .6;
+        font-weight: 600;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

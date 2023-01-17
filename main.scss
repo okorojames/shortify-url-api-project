@@ -20,12 +20,17 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   margin-bottom: 80px;
+  background: #f3f3f3;
 }
 img{
   width: 100%;
 }
 section{
   width: 100%;
+}
+main{
+  background: #fff;
+  padding-bottom: 6rem;
 }
 header{
   margin-bottom: 5rem;
@@ -142,9 +147,13 @@ nav{
 // INPUT LINK SECTION
 // 
 // 
+#input-link-section{
+  margin-bottom: 10rem;
+}
 .input-link-container{
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 3rem;
   display: flex;
   background: linear-gradient(rgba($dark-violet, .95), rgba($dark-violet, .95)), url(/images/bg-shorten-desktop.svg);
   background-size: cover;
@@ -179,6 +188,53 @@ nav{
     }
     & .input-link-btn:hover, & .input-link-btn:active{
       background: rgba($cyan, .7);
+    }
+  }
+}
+// 
+// LINK GENERATED
+// 
+.linksGenerated{
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  & .linkGenerated{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1.2rem 1.3rem;
+    border-radius: 1rem;
+    & .long-link{
+      color: $very-dark-violet;
+      font-size: 1.6rem;
+    }
+    & .shortLink{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      & .short--link{
+        color: $cyan;
+        font-size: 1.6rem;
+      }
+      & .copy-btn{
+        background: $cyan;
+        border: none;
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        color: #fff;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+      }
+      & .copy-btn:hover, & .copy-btn:active{
+        background: rgba($cyan, .7)
+      }
     }
   }
 }

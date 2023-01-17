@@ -14,6 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   margin-bottom: 80px;
+  background: #f3f3f3;
 }
 
 img {
@@ -22,6 +23,11 @@ img {
 
 section {
   width: 100%;
+}
+
+main {
+  background: #fff;
+  padding-bottom: 6rem;
 }
 
 header {
@@ -136,9 +142,14 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
     transform: translateY(18px);
   }
 }
+#input-link-section {
+  margin-bottom: 10rem;
+}
+
 .input-link-container {
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 3rem;
   display: flex;
   background: linear-gradient(rgba(59, 48, 84, 0.95), rgba(59, 48, 84, 0.95)), url(/images/bg-shorten-desktop.svg);
   background-size: cover;
@@ -174,5 +185,50 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   transition: all 0.6s ease-in-out;
 }
 .input-link-container .input-link-form .input-link-btn:hover, .input-link-container .input-link-form .input-link-btn:active {
+  background: rgba(42, 207, 207, 0.7);
+}
+
+.linksGenerated {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+.linksGenerated .linkGenerated {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.2rem 1.3rem;
+  border-radius: 1rem;
+}
+.linksGenerated .linkGenerated .long-link {
+  color: rgb(35, 33, 39);
+  font-size: 1.6rem;
+}
+.linksGenerated .linkGenerated .shortLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.linksGenerated .linkGenerated .shortLink .short--link {
+  color: rgb(42, 207, 207);
+  font-size: 1.6rem;
+}
+.linksGenerated .linkGenerated .shortLink .copy-btn {
+  background: rgb(42, 207, 207);
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.linksGenerated .linkGenerated .shortLink .copy-btn:hover, .linksGenerated .linkGenerated .shortLink .copy-btn:active {
   background: rgba(42, 207, 207, 0.7);
 }/*# sourceMappingURL=main.css.map */

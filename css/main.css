@@ -14,7 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   margin-bottom: 80px;
-  background: #f3f3f3;
+  background: #e3e3e3;
 }
 
 img {
@@ -253,4 +253,39 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   opacity: 0.6;
   font-weight: 600;
   font-size: 1.6rem;
+}
+#advance-stats-section .advance-stats-second-content {
+  margin-top: 15rem;
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+#advance-stats-section .card {
+  width: 35rem;
+  background: #fff;
+  padding: 5rem 3rem;
+  border-radius: 0.8rem;
+}
+#advance-stats-section .card-icon {
+  background: rgb(59, 48, 84);
+  width: 30%;
+  padding: 1.5rem 1.8rem;
+  border-radius: 50%;
+  margin-top: -8rem;
+}
+#advance-stats-section .card-icon .card--icon {
+  width: 100%;
+}
+#advance-stats-section .card-context {
+  margin-top: 2.5rem;
+}
+#advance-stats-section .card-context .card-h3 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+#advance-stats-section .card-context .card-p-one {
+  font-weight: 600;
+  opacity: 0.58;
 }/*# sourceMappingURL=main.css.map */

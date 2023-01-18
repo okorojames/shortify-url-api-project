@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   margin-bottom: 80px;
@@ -291,7 +292,7 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   opacity: 0.58;
 }
 #advance-stats-section .card-back-line {
-  height: 12px;
+  height: 10px;
   width: 650px;
   background: rgb(42, 207, 207);
   position: absolute;
@@ -302,4 +303,36 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 }
 #advance-stats-section .card--three {
   margin-top: 12rem;
+}
+
+#cta-section {
+  background: linear-gradient(rgba(59, 48, 84, 0.96), rgba(59, 48, 84, 0.96)), url(/images/bg-boost-desktop.svg);
+  padding: 8rem 0;
+}
+#cta-section .cta-section-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}
+#cta-section .cta-section-container .cta-section-h3 {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 800;
+  letter-spacing: -1.2px;
+}
+#cta-section .cta-section-container .cta-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: rgba(42, 207, 207, 0.7);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  transition: all 0.6s ease-in-out;
+}
+#cta-section .cta-section-container .cta-btn:hover, #cta-section .cta-section-container .cta-btn:active {
+  background: rgb(42, 207, 207);
 }/*# sourceMappingURL=main.css.map */

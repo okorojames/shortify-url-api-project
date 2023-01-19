@@ -376,5 +376,19 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 
 .footer-fourth-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
+}
+
+.footer-fourth-links div {
+  height: 40px;
+  width: 40px;
+  padding: 1rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-fourth-links div:hover {
+  background: rgb(42, 207, 207);
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

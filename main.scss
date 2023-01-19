@@ -390,5 +390,17 @@ nav{
 }
 .footer-fourth-links{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
+}
+.footer-fourth-links div{
+  height: 40px;
+  width: 40px;
+  padding: 1rem;
+  transition: all .4s ease-in-out;
+}
+.footer-fourth-links div:hover{
+  background: $cyan;
+  border-radius: 50%;
 }

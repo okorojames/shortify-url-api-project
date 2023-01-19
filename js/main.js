@@ -15,10 +15,12 @@ function onSubmitLink(e) {
   const urlRegex = /(https?:\/\/[^\s]+)/g;
   const linkInputBox = document.querySelector('.input-link-input').value.trim();
   // 
-  if (linkInputBox === '' || linkInputBox !== linkInputBox.match(urlRegex)) {
-    linkInputBox.style.border = "2px solid red";
+  if (!linkInputBox.match(urlRegex) || linkInputBox === "") {
+    alert('not a valid link')
+    document.querySelector('.input-link-input').value = ""
   } else {
     console.log(linkInputBox)
+    document.querySelector('.input-link-input').value = ""
   }
 }
 // 

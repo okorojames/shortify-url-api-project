@@ -391,4 +391,8 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 .footer-fourth-links div:hover {
   background: rgb(42, 207, 207);
   border-radius: 50%;
+}
+
+.input-error.input-link-input {
+  box-shadow: 0 0 0 1px red;
 }/*# sourceMappingURL=main.css.map */

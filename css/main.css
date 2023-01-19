@@ -347,7 +347,7 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   align-items: start;
-  gap: 1rem;
+  gap: 4rem;
 }
 #footer-section .footer-section-container .footer-logo-h4 {
   color: #fff;

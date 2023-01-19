@@ -366,8 +366,23 @@ nav{
       font-size: 2.6rem;
       letter-spacing: .15rem;
     }
+    & .footer-links-header{
+      color: rgb(255, 255, 255);
+      margin-bottom: 1.5rem;
+    }
+    & .footer-link{
+      text-decoration: none;
+      color: $grey;
+      font-weight: 600;
+      transition: all .8s ease-in-out;
+    }
+    & .footer-link:hover,& .footer-link:active{
+      color: $cyan;
+    }
   }
 }
+// 
+// 
 .footer-first-links,.footer-second-links,.footer-third-links{
   display: flex;
   flex-direction: column;

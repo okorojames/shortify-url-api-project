@@ -354,6 +354,19 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   font-size: 2.6rem;
   letter-spacing: 0.15rem;
 }
+#footer-section .footer-section-container .footer-links-header {
+  color: rgb(255, 255, 255);
+  margin-bottom: 1.5rem;
+}
+#footer-section .footer-section-container .footer-link {
+  text-decoration: none;
+  color: rgb(191, 191, 191);
+  font-weight: 600;
+  transition: all 0.8s ease-in-out;
+}
+#footer-section .footer-section-container .footer-link:hover, #footer-section .footer-section-container .footer-link:active {
+  color: rgb(42, 207, 207);
+}
 
 .footer-first-links, .footer-second-links, .footer-third-links {
   display: flex;

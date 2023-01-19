@@ -14,7 +14,6 @@ body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
-  margin-bottom: 80px;
   background: #e3e3e3;
 }
 
@@ -335,4 +334,34 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 }
 #cta-section .cta-section-container .cta-btn:hover, #cta-section .cta-section-container .cta-btn:active {
   background: rgb(42, 207, 207);
+}
+
+#footer-section {
+  background: rgb(35, 33, 39);
+  padding: 8rem;
+}
+#footer-section .footer-section-container {
+  margin: 0 auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: start;
+  gap: 1rem;
+}
+#footer-section .footer-section-container .footer-logo-h4 {
+  color: #fff;
+  font-size: 2.6rem;
+  letter-spacing: 0.15rem;
+}
+
+.footer-first-links, .footer-second-links, .footer-third-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-fourth-links {
+  display: flex;
+  gap: 1rem;
 }/*# sourceMappingURL=main.css.map */

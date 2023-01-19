@@ -20,7 +20,6 @@ body{
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
-  margin-bottom: 80px;
   background: #e3e3e3;
 }
 img{
@@ -347,4 +346,34 @@ nav{
       background: $cyan;
     }
   }
+}
+// 
+// FOOTER SECTION
+// 
+#footer-section{
+  background: $very-dark-violet;
+  padding: 8rem;
+  .footer-section-container{
+    margin: 0 auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: start;
+    gap: 1rem;
+    & .footer-logo-h4{
+      color: #fff;
+      font-size: 2.6rem;
+      letter-spacing: .15rem;
+    }
+  }
+}
+.footer-first-links,.footer-second-links,.footer-third-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-fourth-links{
+  display: flex;
+  gap: 1rem;
 }

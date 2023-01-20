@@ -31,12 +31,12 @@ async function getShortLink(shortedLink) {
   const response = await fetch(`https://api.shrtco.de/v2/shorten?url=${shortedLink}`);
   const data = await response.json();
   if (response.ok) {
-    linksGenerated += `
+    linksGenerated.innerHTML += `
     
       <div class="linkGenerated">
-        <div class="longLink"><a ${linkInputBox}" class="long-link">${linkInputBox}</a></div>
+        <div class="longLink"><a ${data.result.original_link}" class="long-link">${data.result.original_link}</a></div>
         <div class="shortLink">
-          <div class="short-link"><a ${data.original_link}" class="short--link">${data.full_short_link}</a></div>
+          <div class="short-link"><a ${data.result.original_link}" class="short--link">${data.result.full_short_link}</a></div>
           <button class="copy-btn">Copy</button>
         </div>
       </div>

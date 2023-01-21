@@ -462,4 +462,10 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   .input-link-input {
     width: 90% !important;
   }
+}
+@media screen and (max-width: 576px) {
+  .footer-section-container {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+  }
 }/*# sourceMappingURL=main.css.map */

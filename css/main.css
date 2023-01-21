@@ -85,6 +85,23 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   background: rgba(42, 207, 207, 0.7);
 }
 
+.hamburger {
+  cursor: pointer;
+}
+
+.burger {
+  width: 50px;
+  height: 3px;
+  transition: all 2s ease-in-out;
+  background: rgb(59, 48, 84);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.burger:last-child {
+  margin-bottom: 0;
+}
+
 #hero-section {
   width: 100%;
   position: relative;
@@ -118,6 +135,23 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   color: #fff;
   padding: 0.8rem 1.2rem;
   border-radius: 1.2rem;
+}
+#hero-section .hero-section-container .hero-section-btn::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(42, 207, 207);
+  border-radius: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+#hero-section .hero-section-container .hero-section-btn:hover::before {
+  transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
 }
 #hero-section .hero-section-second-col {
   position: absolute;

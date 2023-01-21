@@ -91,6 +91,22 @@ nav{
 }
 }
 // 
+// NAV HAMBURGER
+.hamburger{
+  cursor: pointer;
+}
+.burger{
+  width: 50px;
+  height: 3px;
+  transition: all 2s ease-in-out;
+  background: $dark-violet;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.burger:last-child{
+  margin-bottom: 0;
+}
+// 
 // 
 // HERO SECTION
 // 
@@ -126,6 +142,23 @@ nav{
       color: #fff;
       padding: .8rem 1.2rem;
       border-radius: 1.2rem;
+    }
+    & .hero-section-btn::before{
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      background-color: $cyan;
+      border-radius: 1.2rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .5s ease-in-out;
+    }
+    & .hero-section-btn:hover::before{
+      transform: scaleX(1.5) scaleY(1.6);
+      opacity: 0;
     }
   }
   & .hero-section-second-col{

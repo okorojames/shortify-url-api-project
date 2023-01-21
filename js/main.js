@@ -53,3 +53,15 @@ linksGenerated.addEventListener("click", (e) => {
     document.querySelector('.copy-btn').textContent = 'Copied!';
   }
 })
+//
+// NAV HAMBURGER
+// 
+const hamburger = document.querySelector('.hamburger')
+const burgers = document.querySelectorAll('.burger')
+const navLinksBtn = document.querySelector('.navLinksBtns')
+hamburger.addEventListener('click', () => {
+  burgers.forEach(burger => {
+    burger.classList.toggle('toggle-burger')
+  })
+  navLinksBtn.classList.toggle('toggle-burger')
+})

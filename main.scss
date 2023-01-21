@@ -36,8 +36,10 @@ header{
   margin-bottom: 5rem;
 }
 nav{
+  position: relative;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 2.5rem;
   padding: 3rem 0;
@@ -94,17 +96,27 @@ nav{
 // NAV HAMBURGER
 .hamburger{
   cursor: pointer;
+  display: none;
 }
 .burger{
-  width: 50px;
+  width: 45px;
   height: 3px;
-  transition: all 2s ease-in-out;
+  transition: all .4s ease-in-out;
   background: $dark-violet;
   margin-bottom: 10px;
   border-radius: 5px;
 }
 .burger:last-child{
   margin-bottom: 0;
+}
+.toggle-burger.burger--two{
+  display: none;
+}
+.toggle-burger.burger--one{
+  transform: rotate(-45deg) translate(-5px, 0);
+}
+.toggle-burger.burger--three{
+  transform: rotate(45deg) translate(-5px, 0);
 }
 // 
 // 
@@ -521,4 +533,26 @@ nav{
     grid-template-columns: 1fr !important;
     text-align: center !important;
   }
+  .hamburger{
+    display: block;
+  }
+  .navLinksBtns{
+    position: fixed;
+    flex-direction: column;
+    background: $very-dark-violet;
+    width: 70% !important;
+    top: -300%;
+    z-index: 999999;
+    padding: 6rem 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 1.2rem;
+    transition: all .5s ease-in-out;
+  }
+  .nav-links,.nav-btns{
+    flex-direction: column;
+  }
+}
+.toggle-burger.navLinksBtns{
+  top: 17%;
 }

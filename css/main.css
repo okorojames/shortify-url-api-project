@@ -197,7 +197,7 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   gap: 2.5rem;
 }
 .linksGenerated .linkGenerated {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,7 +208,7 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
 }
 .linksGenerated .linkGenerated .long-link {
   color: rgb(35, 33, 39);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .linksGenerated .linkGenerated .shortLink {
   display: flex;
@@ -427,6 +427,16 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   .card--two, .card--three {
     margin-top: 0 !important;
   }
+  .linkGenerated {
+    flex-direction: column;
+  }
+  .shortLink {
+    flex-direction: column;
+  }
+  .copy-btn {
+    padding: 1.2rem 3rem !important;
+    font-size: 1.8rem !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .hero-section-container {
@@ -445,5 +455,11 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   .hero-section-btn {
     padding: 1rem 2.3rem !important;
     font-size: 1.8rem;
+  }
+  .input-link-form {
+    flex-direction: column !important;
+  }
+  .input-link-input {
+    width: 90% !important;
   }
 }/*# sourceMappingURL=main.css.map */

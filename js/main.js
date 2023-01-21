@@ -59,9 +59,18 @@ linksGenerated.addEventListener("click", (e) => {
 const hamburger = document.querySelector('.hamburger')
 const burgers = document.querySelectorAll('.burger')
 const navLinksBtn = document.querySelector('.navLinksBtns')
+const navLink = document.querySelectorAll('.nav-link')
 hamburger.addEventListener('click', () => {
   burgers.forEach(burger => {
     burger.classList.toggle('toggle-burger')
   })
   navLinksBtn.classList.toggle('toggle-burger')
+})
+navLink.forEach(navlink => {
+  navlink.addEventListener('click', () => {
+    navLinksBtn.classList.remove('toggle-burger')
+    burgers.forEach(burger => {
+      burger.classList.remove('toggle-burger')
+    })
+  })
 })

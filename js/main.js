@@ -36,7 +36,7 @@ async function getShortLink(shortedLink) {
       <div class="linkGenerated">
         <div class="longLink"><a ${data.result.original_link}" class="long-link">${data.result.original_link}</a></div>
         <div class="shortLink">
-          <div class="short-link"><a ${data.result.original_link}" class="short--link">${data.result.full_short_link}</a></div>
+          <div class="short-link"><a href="${data.result.original_link}" target="_blank" class="short--link">${data.result.full_short_link}</a></div>
           <button class="copy-btn">Copy</button>
         </div>
       </div>
@@ -44,3 +44,12 @@ async function getShortLink(shortedLink) {
     `
   }
 }
+//
+// 
+linksGenerated.addEventListener("click", (e) => {
+  if (e.target.classList.contains('copy-btn')) {
+    navigator.clipboard.writeText(document.querySelector(".short--link").textContent);
+    document.querySelector('.copy-btn').style.backgroundColor = 'rgb(59, 48, 84)';
+    document.querySelector('.copy-btn').textContent = 'Copied!';
+  }
+})

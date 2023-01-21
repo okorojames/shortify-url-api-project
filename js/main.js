@@ -34,7 +34,7 @@ async function getShortLink(shortedLink) {
     linksGenerated.innerHTML += `
     
       <div class="linkGenerated">
-        <div class="longLink"><a ${data.result.original_link}" class="long-link">${data.result.original_link}</a></div>
+        <div class="longLink"><a href="${data.result.original_link}" target="_blank" class="long-link">${data.result.original_link}</a></div>
         <div class="shortLink">
           <div class="short-link"><a href="${data.result.original_link}" target="_blank" class="short--link">${data.result.full_short_link}</a></div>
           <button class="copy-btn">Copy</button>

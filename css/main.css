@@ -524,8 +524,9 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   .navLinksBtns {
     position: fixed;
     flex-direction: column;
+    gap: 4rem !important;
     background: rgb(35, 33, 39);
-    width: 70% !important;
+    width: 85% !important;
     top: -300%;
     z-index: 999999;
     padding: 6rem 0;
@@ -536,6 +537,29 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   }
   .nav-links, .nav-btns {
     flex-direction: column;
+  }
+  .nav-links {
+    width: 80% !important;
+    gap: 3rem !important;
+    border-bottom: 2.5px solid rgb(158, 154, 167);
+    padding-bottom: 0.5rem;
+  }
+  .nav-link {
+    font-size: 2rem !important;
+  }
+  .nav-link:hover, .nav-link:active {
+    color: #fff !important;
+  }
+  .nav-btns {
+    width: 80%;
+  }
+  .nav-green-btn, .nav-grey-btn {
+    width: 50% !important;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .nav-green-btn {
+    padding: 1.5rem 3rem;
   }
 }
 .toggle-burger.navLinksBtns {

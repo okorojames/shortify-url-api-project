@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap");
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -173,15 +175,6 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   width: 45%;
   right: 0;
   animation: heroSecondColDance 8s infinite alternate-reverse ease-in-out;
-}
-
-@-webkit-keyframes heroSecondColDance {
-  from {
-    transform: translateY(-15px);
-  }
-  to {
-    transform: translateY(18px);
-  }
 }
 
 @keyframes heroSecondColDance {
@@ -425,7 +418,9 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   color: rgb(42, 207, 207);
 }
 
-.footer-first-links, .footer-second-links, .footer-third-links {
+.footer-first-links,
+.footer-second-links,
+.footer-third-links {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -474,7 +469,8 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
     width: 10px !important;
     height: 700px !important;
   }
-  .card--two, .card--three {
+  .card--two,
+  .card--three {
     margin-top: 0 !important;
   }
   .linkGenerated {
@@ -518,6 +514,9 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
     grid-template-columns: 1fr !important;
     text-align: center !important;
   }
+  #footer-section {
+    padding: 2rem;
+  }
   .hamburger {
     display: block;
   }
@@ -535,7 +534,8 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
     border-radius: 1.2rem;
     transition: all 0.5s ease-in-out;
   }
-  .nav-links, .nav-btns {
+  .nav-links,
+  .nav-btns {
     flex-direction: column;
   }
   .nav-links {
@@ -547,13 +547,15 @@ nav .navLinksBtns .nav-btns .nav-green-btn:hover, nav .navLinksBtns .nav-btns .n
   .nav-link {
     font-size: 2rem !important;
   }
-  .nav-link:hover, .nav-link:active {
+  .nav-link:hover,
+  .nav-link:active {
     color: #fff !important;
   }
   .nav-btns {
     width: 80%;
   }
-  .nav-green-btn, .nav-grey-btn {
+  .nav-green-btn,
+  .nav-grey-btn {
     width: 50% !important;
     text-align: center;
     font-size: 2rem;

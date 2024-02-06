@@ -1,167 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-  <title>Url Shortify Project</title>
-</head>
-<body>
-  <main>
-  <header>
-    <nav>
-      <div class="nav-logo"><img src="images/logo.svg" alt=""></div>
-      <!------>
-      <div class="navLinksBtns">
-        <div class="nav-links">
-          <a href="#" class="nav-link">Features</a>
-          <a href="#" class="nav-link">Pricing</a>
-          <a href="#" class="nav-link">Resources</a>
-        </div>
-        <!------->
-        <div class="nav-btns">
-          <a href="" class="btn nav-grey-btn">Login</a>
-          <a href="" class="btn nav-green-btn">Sign Up</a>
-        </div>
-      </div>
-      <!-------->
-      <div class="hamburger">
-        <div class="burger burger--one"></div>
-        <div class="burger burger--two"></div>
-        <div class="burger burger--three"></div>
-      </div>
-    </nav>
-  </header>
-  <!--------->
-  <!--------->
-  <section id="hero-section">
-    <div class="hero-section-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Url Shortify Project</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="nav-logo"><img src="images/logo.svg" alt="" /></div>
+          <!------>
+          <div class="navLinksBtns">
+            <div class="nav-links">
+              <a href="#" class="nav-link">Features</a>
+              <a href="#" class="nav-link">Pricing</a>
+              <a href="#" class="nav-link">Resources</a>
+            </div>
+            <!------->
+            <div class="nav-btns">
+              <a href="" class="btn nav-grey-btn">Login</a>
+              <a href="" class="btn nav-green-btn">Sign Up</a>
+            </div>
+          </div>
+          <!-------->
+          <div class="hamburger">
+            <div class="burger burger--one"></div>
+            <div class="burger burger--two"></div>
+            <div class="burger burger--three"></div>
+          </div>
+        </nav>
+      </header>
       <!--------->
-      <div class="hero-section-first-col">
-        <h3 class="hero-section-h3">More than just shorter links</h3>
-        <p class="hero-section-p-one">Build your brand's recognition and get detailed <br> insights on how your links are performing</p>
-        <a href="#" class="btn hero-section-btn">Get Started</a>
-      </div>
       <!--------->
-      <img src="images/illustration-working.svg" class="hero-section-second-col" alt="">
-      <!--------->
-    </div>
-  </section>
-  </main>
-  <!--------->
-  <!--------->
-  <section id="input-link-section">
-    <div class="input-link-container">
-      <form class="input-link-form">
-        <input type="text" class="input-link-input" placeholder="Shorten a link here...">
-        <input type="submit" class="input-link-btn" value="Shorten It!">
-      </form>
-    </div>
-    <!------->
-    <!------->
-    <div class="linksGenerated">
-    
-    </div>
-  </section>
-  <!--------->
-  <!--------->
-  <section id="advance-stats-section">
-    <div class="advance-stats-container">
-      <!---->
-      <div class="advance-stats-first-content">
-        <h3 class="advance-stats-h3">Advance statistics</h3>
-        <p class="advance-stats-p-one">Track how your links are performing across the web with <br>our advanced statistics dashboard.</p>
-      </div>
-      <!---->
-      <div class="advance-stats-second-content">
-        <!-- card one -->
-        <div class="card card--one">
-          <div class="card-icon">
-            <img src="images/icon-brand-recognition.svg" alt="" class="card--icon">
+      <section id="hero-section">
+        <div class="hero-section-container">
+          <!--------->
+          <div class="hero-section-first-col">
+            <h3 class="hero-section-h3">More than just shorter links</h3>
+            <p class="hero-section-p-one">
+              Build your brand's recognition and get detailed <br />
+              insights on how your links are performing
+            </p>
+            <a href="#" class="btn hero-section-btn">Get Started</a>
           </div>
-          <div class="card-context">
-            <h3 class="card-h3">Brand Recognition</h3>
-            <p class="card-p-one">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
-          </div>
+          <!--------->
+          <img
+            src="images/illustration-working.svg"
+            class="hero-section-second-col"
+            alt=""
+          />
+          <!--------->
         </div>
-        <!-- card two -->
-        <div class="card card--two">
-          <div class="card-icon">
-            <img src="images/icon-detailed-records.svg" alt="" class="card--icon">
-          </div>
-          <div class="card-context">
-            <h3 class="card-h3">Detailed Records</h3>
-            <p class="card-p-one">Gain insights into who's clicking your link, Knowing when and where people engage in your content helps inform better decisions.</p>
-          </div>
+      </section>
+    </main>
+    <!--------->
+    <!--------->
+    <section id="input-link-section">
+      <div class="input-link-container">
+        <form class="input-link-form">
+          <input
+            type="text"
+            class="input-link-input"
+            placeholder="Shorten a link here..."
+          />
+          <input type="submit" class="input-link-btn" value="Shorten It!" />
+        </form>
+      </div>
+      <!------->
+      <!------->
+      <div class="linksGenerated"></div>
+    </section>
+    <!--------->
+    <!--------->
+    <section id="advance-stats-section">
+      <div class="advance-stats-container">
+        <!---->
+        <div class="advance-stats-first-content">
+          <h3 class="advance-stats-h3">Advance statistics</h3>
+          <p class="advance-stats-p-one">
+            Track how your links are performing across the web with <br />our
+            advanced statistics dashboard.
+          </p>
         </div>
-        <!-- card three -->
-        <div class="card card--three">
-          <div class="card-icon">
-            <img src="images/icon-fully-customizable.svg" alt="" class="card--icon">
+        <!---->
+        <div class="advance-stats-second-content">
+          <!-- card one -->
+          <div class="card card--one">
+            <div class="card-icon">
+              <img
+                src="images/icon-brand-recognition.svg"
+                alt=""
+                class="card--icon"
+              />
+            </div>
+            <div class="card-context">
+              <h3 class="card-h3">Brand Recognition</h3>
+              <p class="card-p-one">
+                Boost your brand recognition with each click. Generic links
+                don't mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
           </div>
-          <div class="card-context">
-            <h3 class="card-h3">Fully Customizable</h3>
-            <p class="card-p-one">Improve awareness and content discoverability through customizable links. Supercharging audience engagement.</p>
+          <!-- card two -->
+          <div class="card card--two">
+            <div class="card-icon">
+              <img
+                src="images/icon-detailed-records.svg"
+                alt=""
+                class="card--icon"
+              />
+            </div>
+            <div class="card-context">
+              <h3 class="card-h3">Detailed Records</h3>
+              <p class="card-p-one">
+                Gain insights into who's clicking your link, Knowing when and
+                where people engage in your content helps inform better
+                decisions.
+              </p>
+            </div>
           </div>
+          <!-- card three -->
+          <div class="card card--three">
+            <div class="card-icon">
+              <img
+                src="images/icon-fully-customizable.svg"
+                alt=""
+                class="card--icon"
+              />
+            </div>
+            <div class="card-context">
+              <h3 class="card-h3">Fully Customizable</h3>
+              <p class="card-p-one">
+                Improve awareness and content discoverability through
+                customizable links. Supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+          <div class="card-back-line"></div>
         </div>
-        <div class="card-back-line"></div>
       </div>
-    </div>
-  </section>
-  <!--------->
-  <!--------->
-  <section id="cta-section">
-    <div class="cta-section-container">
-      <h3 class="cta-section-h3">Boost your links today</h3>
-      <a href="" class="btn cta-btn">Get Started</a>
-    </div>
-  </section>
-  <!--------->
-  <!--------->
-  <section id="footer-section" style="overflow-x: hidden;">
-    <div class="footer-section-container">
-      <!--  -->
-      <div class="footer-logo"><h4 class="footer-logo-h4">Shortly</h4></div>
-      <!--  -->
-      <div class="footer-first-links">
-        <h4 class="footer-links-header">Features</h4>
-        <a href="" class="footer-link">Link shortening</a><br>
-        <a href="" class="footer-link">Branded links</a><br>
-        <a href="" class="footer-link">Link shortening</a><br>
+    </section>
+    <!--------->
+    <!--------->
+    <section id="cta-section">
+      <div class="cta-section-container">
+        <h3 class="cta-section-h3">Boost your links today</h3>
+        <a href="" class="btn cta-btn">Get Started</a>
       </div>
-      <!--  -->
-      <div class="footer-second-links">
-        <h4 class="footer-links-header">Resources</h4>
-        <a href="" class="footer-link">Blog</a><br>
-        <a href="" class="footer-link">Developers</a><br>
-        <a href="" class="footer-link">Support</a><br>
+    </section>
+    <!--------->
+    <!--------->
+    <section id="footer-section" style="overflow-x: hidden">
+      <div class="footer-section-container">
+        <!--  -->
+        <div class="footer-logo"><h4 class="footer-logo-h4">Shortly</h4></div>
+        <!--  -->
+        <div class="footer-first-links">
+          <h4 class="footer-links-header">Features</h4>
+          <a href="" class="footer-link">Link shortening</a><br />
+          <a href="" class="footer-link">Branded links</a><br />
+          <a href="" class="footer-link">Link shortening</a><br />
+        </div>
+        <!--  -->
+        <div class="footer-second-links">
+          <h4 class="footer-links-header">Resources</h4>
+          <a href="" class="footer-link">Blog</a><br />
+          <a href="" class="footer-link">Developers</a><br />
+          <a href="" class="footer-link">Support</a><br />
+        </div>
+        <!--  -->
+        <div class="footer-third-links">
+          <h4 class="footer-links-header">Company</h4>
+          <a href="" class="footer-link">About</a><br />
+          <a href="" class="footer-link">Our Team</a><br />
+          <a href="" class="footer-link">Careers</a><br />
+          <a href="" class="footer-link">Contact</a><br />
+        </div>
+        <!--  -->
+        <div class="footer-fourth-links">
+          <div>
+            <a href="" class="footer-link footer-link-icon"
+              ><img
+                src="images/icon-facebook.svg"
+                alt=""
+                class="footer-icon-link"
+            /></a>
+          </div>
+          <br />
+          <div>
+            <a href="" class="footer-link footer-link-icon"
+              ><img
+                src="images/icon-twitter.svg"
+                alt=""
+                class="footer-icon-link"
+            /></a>
+          </div>
+          <br />
+          <div>
+            <a href="" class="footer-link footer-link-icon"
+              ><img
+                src="images/icon-pinterest.svg"
+                alt=""
+                class="footer-icon-link"
+            /></a>
+          </div>
+          <br />
+          <div>
+            <a href="" class="footer-link footer-link-icon"
+              ><img
+                src="images/icon-instagram.svg"
+                alt=""
+                class="footer-icon-link"
+            /></a>
+          </div>
+          <br />
+        </div>
+        <!--  -->
       </div>
-      <!--  -->
-      <div class="footer-third-links">
-        <h4 class="footer-links-header">Company</h4>
-        <a href="" class="footer-link">About</a><br>
-        <a href="" class="footer-link">Our Team</a><br>
-        <a href="" class="footer-link">Careers</a><br>
-        <a href="" class="footer-link">Contact</a><br>
-      </div>
-      <!--  -->
-      <div class="footer-fourth-links">
-        <div>
-        <a href="" class="footer-link footer-link-icon"><img src="images/icon-facebook.svg" alt="" class="footer-icon-link"></a></div><br>
-        <div>
-        <a href="" class="footer-link footer-link-icon"><img src="images/icon-twitter.svg" alt="" class="footer-icon-link"></a></div><br>
-        <div>
-        <a href="" class="footer-link footer-link-icon"><img src="images/icon-pinterest.svg" alt="" class="footer-icon-link"></a></div><br>
-        <div>
-        <a href="" class="footer-link footer-link-icon"><img src="images/icon-instagram.svg" alt="" class="footer-icon-link"></a></div><br>
-      </div>
-      <!--  -->
-    </div>
-  </section>
-  <!--------->
-  <!--------->
-  <script src="js/main.js"></script>
-</body>
+    </section>
+    <!--------->
+    <!--------->
+    <script src="js/main.js"></script>
+  </body>
 </html>
